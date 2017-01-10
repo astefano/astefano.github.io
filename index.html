@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#t").click(function(){
+        $("#d").toggle();
+    });
+});
+</script>
+</head>
 <body>
 
-<dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl>
+<p id="t"><a>Topic.</a></p>
+<p id="d" >Desc.</p>
 
 </body>
 </html>
